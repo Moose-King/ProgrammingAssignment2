@@ -34,7 +34,7 @@ makeCacheMatrix <- function(x = matrix()) {
 ## from the cache
 
 cacheSolve <- function(x, ...) {
-        ## Return a matrix that is the inverse of 'x'
+        ## this will return a matrix that is the inverse of 'x'
   invrs <- x$getinvrs()
   
   if(!is.null(invrs)) {
