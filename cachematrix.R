@@ -31,8 +31,8 @@ makeCacheMatrix <- function(x = matrix()) {
 ## Here we'll create a function called cacheSolve to store our makeCacheMatrix function
 ## and calculate the inverse of the matrix created in makeCacheMatrix. If the inverse of
 ## of this matrix has already been computed, then this function will simply retrieve it
-## from the cache
-
+## from the cache we created earlier
+ 
 cacheSolve <- function(x, ...) {
         ## this will return a matrix that is the inverse of 'x'
   invrs <- x$getinvrs()
